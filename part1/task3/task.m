@@ -1,5 +1,6 @@
 %% MATLAB CW - SN: 17052580
 %% Task 3
+%%
 
 % Generate a set of random coefficients for a polynomial:
 a = double(rand(10, 1));

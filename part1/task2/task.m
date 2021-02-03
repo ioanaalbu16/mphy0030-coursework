@@ -59,9 +59,11 @@ dt50 = delaunay(x50(1, :), x50(2, :), x50(3, :));
 dt90 = delaunay(x90(1, :), x90(2, :), x90(3, :));
 
 figure, trisurf(dt10, x10(1, :), x10(2, :), x10(3, :));
+title('10th percentile');
 saveas(gcf, 'figure2_1.png');
-hold off;
 figure, trisurf(dt50, x50(1, :), x50(2, :), x50(3, :));
+title('50th percentile');
 saveas(gcf, 'figure2_2.png');
 figure, trisurf(dt90, x90(1, :), x90(2, :), x90(3, :));
+title('90th percentile');
 saveas(gcf, 'figure2_3.png');
